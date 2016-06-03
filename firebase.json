@@ -1,0 +1,12 @@
+{
+  "firebase": "movie-search-redux",
+  "public": "/",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ],
+  "rewrites": [
+  {"source":"**/**","destination":"/index.html"}
+]
+}

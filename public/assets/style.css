@@ -1,0 +1,40 @@
+header {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  /*height: 70px;*/
+  color: white;
+  background-color: navy
+}
+
+header h1 {
+  margin-left: 25px;
+}
+
+header h1 small {
+  font-style: italic;
+  color: rgb(212, 210, 210);
+}
+
+.search-box {
+  margin: 50px;
+}
+
+li, .deets {
+  margin-bottom: 35px;
+}
+
+li h3 a {
+  color: navy
+}
+
+li h5, .deets{
+  color: rgb(60, 60, 60);
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.movie-detail h1 {
+  margin-top: 0;
+}

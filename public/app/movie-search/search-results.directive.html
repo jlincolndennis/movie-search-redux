@@ -1,0 +1,17 @@
+<div>
+
+  <h3>Search Results for "{{vm.searchTerm}}" ({{vm.movies.length}})</h3>
+  <p class='deets'>Click a title for more information!</p>
+
+<ul ng-repeat='movie in vm.movies'>
+
+    <li>
+      <h3><a ui-sref="details({movieId: movie.id})">{{movie.title}}</a></h3>
+      <h5>Released: {{movie.year}} |  Type: <span class='capitalize'>{{movie.type}}</span></h5>
+    </li>
+
+</ul>
+
+
+
+</div>
