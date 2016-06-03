@@ -10,6 +10,15 @@ header h1 {
   margin-left: 25px;
 }
 
+header h1 a {
+  color: white
+}
+
+header h1 a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 header h1 small {
   font-style: italic;
   color: rgb(212, 210, 210);
