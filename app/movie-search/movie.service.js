@@ -10,7 +10,7 @@
       var cachedSearches = {};
       var cachedMovies = {};
       var searchResult = ['poop'];
-      var baseUrl = 'http://www.omdbapi.com/?'
+      var baseUrl = 'https://www.omdbapi.com/?'
 
       return {
         searchMovies: searchMovies,
